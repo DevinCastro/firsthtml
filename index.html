@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<!-- language =english -->
+<html lang="en">
+<!-- Where all the information of the site -->
+<head>
+  <!-- This refers to the standard kerboard character set -->
+  <meta charset="UTF-8">
+
+  <!-- These decsribe information about the site, this website should take up the width of the device we are on -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hello World!</title>
+
+  <!-- This opens CSS within html file, only put the style tag within the head -->
+  <style>
+    /* all h1 will have style as follows */
+    h1 {
+      color: blue;
+      font-size: 100px;
+      font-family: cursive;
+      background-color: red;
+      border: 10px solid black;
+    }
+
+    /* use # to reference certain ids in CSS */
+    #myheading {
+      color: purple;
+    }
+
+    /* reference a class with . */
+    .green {
+      color: green;
+    }
+
+    /* CSS heirarchy says certain things take precedent, 
+    ids are at the top 
+    classes are next
+    tag is last
+    
+    */
+
+  </style>
+
+</head>
+<body>
+  
+  <h1 id="myheading">Hello World!</h1>
+  <h1 class="green">Goodbye!</h1>
+  
+  <!--this is a code comment-->
+  <!-- cmd / -->
+
+
+
+  <p>Hello World!</p>
+
+
+  
+  <!--Nested-->
+  <p>
+    This is a paragraph
+    <button>This is a button</button>
+  </p>
+  
+  <!--any element can have ONLY ONE id, and any class (can use multiple classes seperated by spaces)-->
+  <h1 id ="header1" class ="one two three">This is a heading</h1>
+  
+  <!--no closing tag because there is nothing in the tag-->
+  <input>
+  
+  
+  <!--type doesnt always have to text, could be number etc, just type "input" to see types-->
+  <input type="text" placeholder="Some text">
+  <input type="date" name="" id="">
+  
+  <h2 class ="one">This is a heading 2</h2>
+  
+  <button>This is a button</button>
+  
+  <!--img tag, orange font is the html attributes(provide details to html elements)-->
+  <!--src is the source link, alt, the alternative is in case the link is broken or there is an error-->
+  <img src="https://upload.wikimedia.org/wikipedia/en/thumb/3/3b/SpongeBob_SquarePants_character.svg/1200px-SpongeBob_SquarePants_character.svg.png" alt="Spongebob">
+  
+  
+  
+  <!--lists-->
+  <!--unoredered lists-->
+  <ul>
+    <li>one</li>
+    <li>two</li>
+    <li>three</li>
+  </ul>
+  
+  <!--oredered lists-->
+  <ol>
+    <li>a</li>
+    <li>b</li>
+    <li>c</li>
+  </ol> 
+  
+</body>
+</html>
